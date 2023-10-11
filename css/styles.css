@@ -429,6 +429,11 @@ font-size: 16px;
     height: 40px;
 }
 
+.footer-links {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
 .footer-social-link {
     width: 100%;
     height: 100%;
@@ -498,6 +503,17 @@ font-size: 16px;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: #404bbf;
+}
+
+.footer-form-container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 80px;
 }
 
 .submit-icons {
@@ -705,9 +721,8 @@ p {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:hover .name-icon,
-.form-input:focus .name-icon {
-    fill: #4D5AE5;
+.form-input:focus+.name-icon {
+    fill: #4d5ae5;
 }
 
 .form-comment {
