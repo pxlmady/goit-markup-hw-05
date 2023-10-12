@@ -433,8 +433,7 @@ font-size: 16px;
 }
 
 .footer-links {
-    box-sizing: border-box;
-    margin: 0 auto;
+margin-right: 80px;
 }
 
 .footer-social-link {
@@ -511,12 +510,6 @@ font-size: 16px;
 .footer-button:hover,
 .footer-button:focus {
     background-color: #404bbf;
-}
-
-.footer-form-container {
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 80px;
 }
 
 .submit-icons {
@@ -773,13 +766,21 @@ p {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 4px;
 }
 
-.checkbox-input:checked+.checkbox-label>.checkbox-span {
+/* .checkbox-input:checked+.checkbox-span {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+} */
+
+.checkbox-input:checked + .checkbox-label > .checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
 }
+
 
 .chechbox-link {
     color:#4d5ae5; 
